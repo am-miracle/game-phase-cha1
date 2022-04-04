@@ -1,0 +1,66 @@
+subgraph/subgraph.yaml
+subgraph/generated
+subgraph/abis/*
+hardhat/*.txt
+**/aws.json
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+**/node_modules
+
+hardhat/artifacts*
+hardhat/deployments
+react-app/src/contracts/*
+react-app/src/contracts/external_contracts.js
+hardhat/cache*
+**/data
+react-app/src/contracts/contracts.js
+
+
+# ts
+hardhat-ts/cache
+# secrets
+.secret
+
+subgraph/config/config.json
+tenderly.yaml
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+coverage
+
+# production
+build
+# yarn / eslint
+.yarn/cache
+.yarn/install-state.gz
+.yarn/build-state.yml
+.eslintcache
+# testing
+coverage
+
+# production
+build
+
+#Hardhat files
+cache
+artifacts
+
+# misc
+.DS_Store
+.env*
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.idea
+
+# Local Netlify folder
+.netlify
+*.tsbuildinfo
+*.stackdump
